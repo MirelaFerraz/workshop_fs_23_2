@@ -1,0 +1,7 @@
+Anotções do workshop QA 
+
+alguns comandos git:
+git add . 
+git commit -m 
+git push
+
