@@ -1,7 +1,40 @@
-Anotções do workshop QA 
+Anotações do workshop QA 
 
 alguns comandos git:
 git add . 
 git commit -m 
 git push
+
+Dia 1 QA - quality assurance
+
+Entendendo o QA -> Garantir que o produto atenda ou supere as expectativas do cliente entregando o produto dentro do prazo.
+
+Processo -> Validações para localizar bugs ou erros do sistema que vai ser entregue.
+
+- Prevenir erros/ defeitos 
+- Revisões, avaliaçõess da qualidade, testes e investigações. 
+- Estabelecer padrões, processos e diretrizes ara garantir qualidade.
+
+Controle de qualidade -> Corrigir os defeitos que já ocorreram. 
+
+Garantia de qualidade -> Prevenir que os erros aconteçam.
+
+testes - debugs - gestão de erros - construir um sistema melhor
+
+metodologias ageis - kanban - trello 
+
+boas praticas:
+- tirar print da tela para relatar o erro
+- implementar uma estratégia de qualidade
+- definir requisitos claros de qualidade
+- realizar os testes cedo e constantemente
+- automatizar
+
+Ferramentas: 
+- Postman
+- Cypress
+- Selenium *
+- GitLab
+- junit *
+- Android studio
 
