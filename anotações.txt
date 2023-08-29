@@ -31,7 +31,7 @@ boas praticas:
 - automatizar
 
 Ferramentas: 
-- Postman
+- Postman (testar api)
 - Cypress
 - Selenium *
 - GitLab
