@@ -1,0 +1,11 @@
+Heurísticas e testes exploratórios: ajudam o testador a não esquecer os pontos-chave
+
+Heurística Cadastro
+- Campo de nome aceitando colocar só o caractere de espaço ou qualquer 
+- Senha sem critério de segurança, podendo usar apenas um caractere
+- Email sem critério podendo usar apenas um caractere depois do "@" 
+
+Heurística Login
+- Sem opção redefinição de senha 
+- quando o usuário não está cadastrado deveria aparecer que não está cadastrado
+- quando a senha está errada não informa qual o erro 
