@@ -1,0 +1,28 @@
+Dia 3 
+
+Responsabilidades do QA:
+
+1. Criar planos de testes
+2. Desesnvolver casos de testes 
+3. Executar os testes
+4. Reportar bugs
+5. Analisar resultados 
+6. Fornecer feedbacks 
+7. Melhoria contínua
+
+Boas práticas:
+
+1. Implementar uma estratégia de qualidade
+2. Definir requisitos claros de qualidade
+3. Realizar os testes cedo e constantemente 
+4. Automatizar quando necessário
+5. colaborar com outros times 
+6. Monitorar e melhoras os processos de testes
+
+Plano de testes: 
+1. Cenário 
+2. Resultado Esperado
+3. Resultado obtido
+4. Automatização (se for necessário)
+
+Desafio do dia: Fazer plano de teste para a documentação recebida
