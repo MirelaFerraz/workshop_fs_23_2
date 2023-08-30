@@ -1,0 +1,31 @@
+Caso de teste Campos Login e Cadastro 
+
+Pré-condição: Estar logado na página inicial do site 
+
+Passos: 
+1. Acessar o sistema
+2. Clicar em "Novo usuário?" caso seja um novo usuário ou em "Login" caso tenha cadastro
+3. Novo usuário-> Adicionar o nome com carcteres válidos
+4. Preencher o campo de e-mail de forma válida
+5. preencher o campo de senha de forma válida
+6. Clicar no botão "Cadastrar" (para novos usuários)
+7. clicar no botão "Entrar" (para usuário existente)
+
+Resultado esperado: Acessar a conta cadastrada 
+
+Bugs/Erros/Melhorias tela de cadastro: 
+
+1. Campo de nome aceitando qualquer tipo de caracter, inclusive somente o caractere de espaço.
+ 	Esperado: Aceitar caracteres válidos para nome
+2. Campo Senha sem critério de segurança podendo usar apenas um caractere qualquer, incluindo caractere de espaço.
+	Esperado: Aceitar senhas válidas com minimo de caracteres e segurança como por exemplo, uma letra maiúscula e um número. 
+3. Campo Email sem critério podendo usar um caractere antes do @ e um depois do @.
+	Esperado: Aceitar emails válidos e verificados com algum dominio .com para ser mais seguro.
+
+Bugs/Erros/Melhorias tela de Login:
+
+1. Sem opção de redefinição de senha.
+	Esperado: Opção de redefinir a senha para manter o usuário ativo. 
+2. Mensagem de erro não especificada.
+	Esperado: que a mensagem seja específica para o erro encontrado. Exemplo: Usuário incorreto ou Senha incorreta. 
+	
