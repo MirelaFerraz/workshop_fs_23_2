@@ -2,16 +2,28 @@ Caso de teste Campos Login e Cadastro
 
 Pré-condição: Estar logado na página inicial do site 
 
-Passos: 
-1. Acessar o sistema
-2. Clicar em "Novo usuário?" caso seja um novo usuário ou em "Login" caso tenha cadastro
-3. Novo usuário-> Adicionar o nome com carcteres válidos
-4. Preencher o campo de e-mail de forma válida
-5. preencher o campo de senha de forma válida
-6. Clicar no botão "Cadastrar" (para novos usuários)
-7. clicar no botão "Entrar" (para usuário existente)
+Passos para Login: 
+1. Acessar o sistema;
+2. Clicar em "Login";
+3. Preencher o campo de e-mail com o e-mail cadastrado;
+4. Preencher o campo de senha com a senha cadastrada;
+5. clicar no botão "Entrar".
+
+
+Passos para Novo Usuário: 
+1. Acessar o sistema;
+2. Clicar em "Novo usuário?";
+3. Preencher o campo "Nome" com um nome válido;
+4. Preencher o campo de e-mail com um e-mail válido;
+5. Preencher o campo de senha com uma senha válida;
+6. Clicar no botão cadastrar; 
+7. Inserir email cadastrado;
+8. Inserir senha cadastrada;
+9. Clicar no botão "Entrar". 
+
 
 Resultado esperado: Acessar a conta cadastrada 
+
 
 Bugs/Erros/Melhorias tela de cadastro: 
 
