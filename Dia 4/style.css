@@ -1,0 +1,38 @@
+body{
+  background-color: cornflowerblue;
+}
+
+h3 {
+  background-color: rgb(152, 186, 248);
+  text-align: center;
+  border-radius: 30px;
+  width: 60%;
+  margin: 0 auto;
+}
+
+div {
+  width:50%;
+  height: 65%;
+  text-align: center;
+  border-radius: 10%;
+  margin: 0 auto;
+}
+
+p {
+  border-radius: 30px;
+  width: 50%;
+  background-color: rgb(24, 79, 143);
+  margin: 0 auto;
+  color:aliceblue
+}
+
+.checkbox1, .radio1, .radio2, .data, .email {
+  text-align: justify;
+
+}
+
+footer{
+  text-decoration:underline;
+  text-align: center;
+  
+}
