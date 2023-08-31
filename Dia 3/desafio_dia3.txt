@@ -1,2 +1,35 @@
 Plano de Teste Documentação Petshop
 
+Cenário(o que deve ser testado e visão geral da situação);Caso de teste; Resultado esperado; Resultado obtido
+
+Cenário RF001: 
+
+Funcionalidade - 
+Comportamento esperado -
+Verificações -
+
+° Pré-condição: Estar na página de Login.	  
+
+ 
+
+° Pós-condição: Funcionário ser autenticado no sistema.  
+
+ 
+
+° Comportamento Esperado:  
+
+Ao “logar” com as credenciais válidas, o usuário terá permissões de acordo com sua função e poderá verificar informações sobre sua área de atuação.  
+
+ 
+
+° Verificações:  
+
+Todos os campos devem ser obrigatórios (Login e Senha); 
+
+Campo Senha deve ter 8 caracteres, incluindo uma letra maiúscula; 
+
+Ao clicar em “Entrar” a página deve ser redirecionada para a tela principal; 
+
+Em caso de êxito na validação das credenciais, deve exibir uma mensagem de confirmação; 
+
+Em caso de falha na validação das credenciais, deve exibir uma mensagem que mostre qual campo está incorreto; 
