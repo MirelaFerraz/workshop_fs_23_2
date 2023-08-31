@@ -1,18 +1,20 @@
-Plano de Teste Documentação Petshop
-
-Cenário(o que deve ser testado e visão geral da situação);Caso de teste; Resultado esperado; Resultado obtido
-
-Cenário RF001: 
-
-Funcionalidade - 
-Comportamento esperado -
-Verificações -
-
-° Pré-condição: Estar na página de Login.	  
+Plano de teste 
 
  
 
-° Pós-condição: Funcionário ser autenticado no sistema.  
+1.  Introdução 
+
+ 
+
+Aplicação comercial para empresas do ramo de serviços e produtos para animais. Destina-se ao controle interno de todos os processos que englobam o ramo agregando também outras funcionalidades como controle de funcionários e fornecedores. 
+
+ 
+
+2.  Funcionalidades 
+
+ 
+
+2.1	RF001: Autenticação no Sistema.  
 
  
 
@@ -20,16 +22,104 @@ Verificações -
 
 Ao “logar” com as credenciais válidas, o usuário terá permissões de acordo com sua função e poderá verificar informações sobre sua área de atuação.  
 
+Ao “logar” com credenciais inválidas, o usuário deve receber uma mensagem de login inválido.  
+
  
 
 ° Verificações:  
 
-Todos os campos devem ser obrigatórios (Login e Senha); 
+Login feito com sucesso; 
 
-Campo Senha deve ter 8 caracteres, incluindo uma letra maiúscula; 
+Senha incorreta; 
 
-Ao clicar em “Entrar” a página deve ser redirecionada para a tela principal; 
+Login incorreto ou inexistente; 
 
-Em caso de êxito na validação das credenciais, deve exibir uma mensagem de confirmação; 
+Direcionamento para nova tela dentro do sistema. 
 
-Em caso de falha na validação das credenciais, deve exibir uma mensagem que mostre qual campo está incorreto; 
+ 
+
+ 
+
+2.2	RF002: Gerenciar cliente. 
+
+ 
+
+° Comportamento Esperado: 
+
+Gerenciar todas as informações obrigatórias do cliente, como CPF, Nome, Endereço, RG e Animal referente ao cliente. Além de conter as permissões para excluir, alterar, incluir e listar todos os clientes cadastrados.  
+
+ 
+
+° Verificações:  
+
+ 
+
+Preencher todos os campos obrigatórios para cadastro; 
+
+Validação de cadastro; 
+
+Validação para excluir; 
+
+Validação para incluir; 
+
+Validação para alterar; 
+
+Validação para listar. 
+
+ 
+
+ 
+
+2.3	RF003: Gerenciar animal. 
+
+ 
+
+° Comportamento Esperado: 
+
+Gerenciar as informações do animal, como Raça, Nome, Espécie e Dono. Deve conter as opções de excluir, incluir, alterar e listar as informações. 
+
+ 
+
+° Verificações: 
+
+ 
+
+Preencher campos obrigatórios para o cadastro; 
+
+Validação de cadastro; 
+
+Validação para excluir; 
+
+Validação para incluir; 
+
+Validação para alterar; 
+
+Validação para listar. 
+
+ 
+
+ 
+
+2.4	RF004: Manter Hospedagem. 
+
+ 
+
+ 
+
+° Comportamento Esperado: 
+
+Administração das hospedagens dos animais no sistema. Deve conter dados como período de estadia, links para visualizar dados do dono e do animal, e outras informações como rotina. 
+
+ 
+
+° Verificações: 
+
+ 
+
+Validar tempo de estadia; 
+
+Validar se está aparecendo as informações do animal; 
+
+Validar se está aparecendo as informações do dono; 
+
+Validar se está aparecendo as informações extras. 
