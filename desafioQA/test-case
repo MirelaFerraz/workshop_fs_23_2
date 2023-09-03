@@ -1,0 +1,121 @@
+Plano de testes site sauce demo
+
+1. Introdução
+
+Site que ajuda pessoas a testeram as falhas e automações na página. 
+
+
+2. Funcionalidades
+
+
+2.1 Cenário 001 - Login no sistema
+
+° Comportamento esperado: Ao utilizar as credencias com acesso, deve entrar na página e mostrar cada característica específica do usuário.
+
+° Verificações: 
+	Direcionamento para nova tela do sistema;
+	Mensagem de usuário bloqueado;
+	Mesma imagem em todos os produtos; 
+	Mensagem de usuário não cadastrado;
+	Delay de 5 segundos para login.
+	
+	
+2.2 Casos de teste
+
+	*Caso de teste 2.2.1: Verificando login com standard_user e secret_sauce. Usuário deve conseguir entrar.*
+	
+		Pré-condição: Usuário na página de login.
+		Pós-condição: Entrar no menu da página.
+		
+		
+		Passos:
+		 1. Clicar em campo de usuário;
+		 2. Escrever standard_user no campo de usuário;
+		 3. Clicar em campo de senha;
+		 4. Escrever secret_sauce no campo de senha;
+		 5. Clicar em Login.
+		 
+		 
+		 
+	*Caso de teste 2.2.2: Verificando login com locked_out_user e secret_sauce. Ususário deve aparecer bloqueado e não conseguir entrar no menu.*
+	
+		Pré-condição: Usuário na página de login.
+		Pós-condição: Receber mensagem na tela de usuário bloqueado.
+		
+		
+		Passos:
+		 1. Clicar em campo de usuário;
+		 2. Escrever locked_out_user no campo de usuário;
+		 3. Clicar em campo de senha;
+		 4. Escrever secret_sauce no campo de senha;
+		 5. Clicar em Login.
+		 
+		 
+		
+	*Caso de teste 2.2.3: Verificando login com problem_user e secret_sauce. Ususário deve ver a mesma imagem ao entrar no menu.*
+		
+		Pré-condição: Usuário na página de login.
+		Pós-condição: Entrar no menu e ver a mesma imagem em vários itens.
+		
+		
+		Passos: 
+		 1. Clicar em campo de usuário;
+		 2. Escrever problem_user no campo de usuário;
+		 3. Clicar em campo de senha;
+		 4. Escrever secret_sauce;
+		 5. Usuário deve ser direcionado para o menu e ver a mesma imagem nos itens na tela.
+		 
+		 
+		 
+	*Caso de teste 2.2.4: Verificando login com um usuário não cadastrado e secret_sauce. Ususário deve ver a mensagem de não cadastrado.*
+	
+		Pré-condição: Usuário na página de login.
+		Pós-condição: Receber mensagem de não cadastrado.
+		
+		
+		Passos:
+		 1. Clicar em campo de usuário;
+		 2. Escrever qualquer usuário não cadastrado;
+		 3. Clicar em campo de senha;
+		 4. Escrever secret_sauce;
+		 5. Usuário deve receber mensagem de não cadastrado.
+		 
+		 
+		 
+	*Caso de teste 2.2.5: Verificando login com standard_user e senha errada. Ususário deve ver a mensagem de não cadastrado.*
+	
+		Pré-condição: Usuário na página de login.
+		Pós-condição: Receber mensagem de não cadastrado.
+		
+		
+		Passos:
+		 1. Clicar em campo de usuário;
+		 2. Escrever standard_user;
+		 3. Clicar em campo de senha;
+		 4. Escrever qualquer senha errada;
+		 5. Usuário deve receber mensagem de não cadastrado.
+		
+		
+		
+	*Caso de teste 2.2.6: Verificando login com performance_glitch_user e secret_sauce. Tem atraso de 5 segundos para entrar no menu.*
+	
+		Pré-condição: Usuário na página de login.
+		Pós-condição: Entrar na página de menu depois de 5 segundos de espera.
+		
+		
+		Passos:
+		 1. Clicar em campo de usuário;
+		 2. Escrever performance_glitch_user cadastrado;
+		 3. Clicar em campo de senha;
+		 4. Escrever secret_sauce;
+		 5. Usuário deve esperar 5 segundo para ser direcionado para a nova tela.
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	
