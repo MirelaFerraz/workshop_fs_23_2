@@ -27,8 +27,8 @@ describe('Cenário 001 - Login no sistema ', () => {
     cy.get('.inventory_item_img').should('be.visible')
   })
 
-  it('Verificando login com erro_user e secret_sauce. Ususário deve ver a mensagem de não cadastrado.', () => {
-    cy.get('#user-name').click().type('erro_user')
+  it('Verificando login com um usuário não cadastrado e secret_sauce. Ususário deve ver a mensagem de não cadastrado.', () => {
+    cy.get('#user-name').click().type('.xpto')
     cy.get('#password').click().type('secret_sauce')
     cy.get('#login-button').click()
     cy.get('.error-message-container.error').contains('Epic sadface: Username and password do not match any user in this service')
